@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+  padding: 10px;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+i {
+  color: #b8b8b8;
+}
+
+.fa-spotify {
+  color: white;
+  font-size: 32px;
+}
+
+.header-middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+}
+
+.header-middle > div {
+  display: flex;
+  background-color: #1f1f1f;
+  padding: 10px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+
+.header-middle i {
+  font-size: 24px;
+}
+
+.house-btn {
+  display: block;
+  width: 30px;
+}
+
+.fa-house {
+  font-size: 24px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+}
+
+.header-right {
+  color: white;
+}
+
+.header-right > button {
+  background-color: transparent;
+  border: none;
+  color: #b8b8b8;
+}
+
+.header-right i {
+  font-size: 16px;
+}
+
+main div {
+  background-color: #1f1f1f;
+  border-radius: 5px;
+  display: inline-flex;
+}
